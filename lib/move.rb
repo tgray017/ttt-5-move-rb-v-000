@@ -9,9 +9,9 @@ end
 # code your input_to_index and move method here!
 
 def input_to_index(user_input)
-  user_input = gets.strip.to_i - 1
+  index = gets.strip.to_i - 1
 end
 
-def move(board, user_input, character = "X")
-  board[user_input] = character
+def move(board, index, character = "X")
+  board[index] = character
 end  
